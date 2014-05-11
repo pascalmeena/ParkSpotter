@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/feedtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Android RSSReader" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Parkade Lists"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/itemlist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:divider="#B0C4DE"
+        android:dividerHeight="3px" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/previous_button"
+            style="@style/ButtonText"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/green_button"
+            android:text="@string/previous_button" >
+        </Button>
+
+        <Button
+            android:id="@+id/next_button"
+            style="@style/ButtonText"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/green_button"
+            android:text="@string/next_button" >
+        </Button>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background" 
+    >
+    <TextView
+    android:id="@+id/textView1"
+    android:layout_width="match_parent"
+    android:layout_height="37dp"
+    android:text="Categories"
+    style="@style/ButtonText"
+    android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+    <ScrollView
+        android:id="@+id/myscrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.59" >
+
+        <LinearLayout
+            android:id="@+id/radioButtons"
+            android:layout_width="match_parent"
+            android:layout_height="146dp"
+            android:background="@color/scrlbgcolor"
+            style="@style/ButtonText"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/category_radio_group"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical" >
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    
+ 	<!-- Continue Button to click after a selection  -->
+    <Button
+        android:id="@+id/continue_button"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_button"
+        android:text="@string/continue_button" />    
+        
+    <Button
+     android:id="@+id/previous_button"
+     style="@style/ButtonText"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/green_button"
+     android:text="@string/previous_button" />
+    
+
+</LinearLayout>

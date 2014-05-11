@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textFavoriteParkades"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Favorite Parkades" />
+
+	<ListView
+        android:id="@+id/itemlist2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:divider="#B0C4DE"
+        android:dividerHeight="3px" />
+        
+    <Button
+        android:id="@+id/continue_button"
+        style="@style/ButtonText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_button"
+        android:text="@string/continue_button" />
+    <Button
+     android:id="@+id/previous_button"
+     style="@style/ButtonText"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:background="@drawable/green_button"
+     android:text="@string/previous_button" />
+
+</LinearLayout>

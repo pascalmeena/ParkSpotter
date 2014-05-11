@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        style="@style/ButtonText"
+        android:layout_margin="22dp"
+        android:textColor="@android:color/white"
+        android:textSize="45sp"
+        android:text="@string/txt_Main_Menu" />
+
+    <Button
+        android:id="@+id/button_fav_park"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonText"
+        android:layout_marginBottom="27dp"
+        android:background="@drawable/green_button"
+        android:text="@string/btn_fav_park"/>
+
+    <Button
+        android:id="@+id/button_categories"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonText"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/green_button"
+        android:text="@string/btn_categories"/>
+
+    <Button
+        android:id="@+id/button_map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonText"
+        android:background="@drawable/green_button"
+        android:text="@string/btn_map"/>
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+{
+    "nodes": [
+        {
+            "node": {
+                "name": "Social Events",
+                "Term ID": "1"		
+            }
+        },
+        {
+            "node": {
+               "name": "College/University",
+                "Term ID": "4"
+				
+            }
+        },
+        {
+            "node": {
+                "name": "Other",
+                "Term ID": "6"
+            }
+        },
+        {
+            "node": {
+               "name": "Recreational Centres",
+               "Term ID": "5"
+            }
+        },
+        {
+            "node": {
+                "name": "Shopping Centres",
+                "Term ID": "3"
+            }
+        },
+        {
+            "node": {
+                "name": "Sport Events",
+                "Term ID": "2"
+            }
+        },
+        {
+            "node": {
+                "name": "Malls",
+                "Term ID": "7"
+            }
+        }
+    ]
+}

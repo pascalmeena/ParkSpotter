@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+     
+    <TextView
+         android:id="@+id/categories"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#FFF"
+         style="@style/ButtonText"
+         android:textSize="10dp"
+         android:textStyle="bold" >
+  
+    </TextView>
+    
+     <TextView
+         android:id="@+id/catid"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#F00"
+         android:textSize="12sp"
+         android:textStyle="bold" >
+  
+    </TextView>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/Home" 
+        android:title="Home" 
+        android:icon="@android:drawable/ic_menu_preferences"/>
+ 
+         
+    <item android:id="@+id/itemFavoriteParkades" 
+        android:title="Favorite Parkades"
+    android:icon="@android:drawable/ic_menu_preferences"/>
+   
+    
+    <item android:id="@+id/itemViewCategories" 
+        android:title="View Categories" 
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    
+	<item android:id="@+id/itemShowMap" 
+        android:title="Show Map"
+    android:icon="@android:drawable/ic_menu_preferences"/>
+</menu>
